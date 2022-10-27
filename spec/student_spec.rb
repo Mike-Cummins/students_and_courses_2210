@@ -1,4 +1,6 @@
+require './lib/course'
 require './lib/student'
+require './lib/gradebook'
 
 RSpec.describe Student do
   it 'exists' do

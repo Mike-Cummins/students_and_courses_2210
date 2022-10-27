@@ -1,3 +1,6 @@
+require './lib/student'
+require './lib/gradebook'
+
 class Course
   attr_reader :name, :capacity, :students
   def initialize(name, capacity)
